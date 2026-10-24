@@ -1,0 +1,92 @@
+table,th,td{
+    border: 2px solid #96D4D4;
+    /*text-decoration: center;
+    margin: auto;*/
+    border-radius: 10px;
+}
+
+td{
+    align-items: center;
+}
+
+table{
+    margin-top: 10px;
+}
+
+
+h1,h3{ 
+    border: 2px solid white;
+    background-color: #96D4D4;
+    text-decoration: center;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tr:hover{
+    background-color: #96D4D4;
+    border: white;
+}
+
+.formulario{ 
+    margin-left: 570px ;
+    margin-top: -390px;
+    
+}
+
+input[type=number]{
+    width: 50%;
+    
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+
+}
+
+input[type=number]:hover {
+    background-color: lightblue;
+}
+
+input[type = button], input[type=submit]{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+fieldset{
+    margin-right: 500px;
+    border-color: lightblue;
+    border-style: solid;
+}
+
+li a {
+    display: block;
+    color: lightblue;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+
+ul {
+    list-style-type: none;
+    margin: 200;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin-top: 10px;
+}
+  
+li {
+    float: left;
+}
+
+li a:hover {
+    background-color: lightblue;
+    color: #333;
+}
+
